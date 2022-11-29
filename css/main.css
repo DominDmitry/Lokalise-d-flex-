@@ -195,6 +195,9 @@ padding-bottom: 50px;
     background-color: #FFF8E4;
     margin-top: 150px;
 }
+.apps{
+    min-height: 430px;
+}
 .what_can_you h2{
     padding-top: 120px;
     margin-bottom: 79px;
@@ -207,9 +210,12 @@ padding-bottom: 50px;
 
 }
 .what_can_you img{
+    height: 120px;
+    width: 160px;
     margin:0px 70px 25px 70px
 }
 .what_can_you h3{
+    margin-top: 20px;
     margin-bottom: 25px;
 }
 .boost{
