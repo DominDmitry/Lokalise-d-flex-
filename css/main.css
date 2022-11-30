@@ -239,6 +239,9 @@ padding-bottom: 50px;
     margin-bottom: 25px;
     min-height: 240px;
 }
+.boost a{
+    text-decoration: underline;
+}
 .message{
     background-color: #C9E8F2;
     margin-top: 187px;
