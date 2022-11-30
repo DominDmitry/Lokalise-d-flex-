@@ -349,6 +349,7 @@ padding-bottom: 50px;
 }
 .footer{
     padding-top: 52px;
+    padding-bottom: 43px;
     display: flex;
     justify-content: space-between;
 }
