@@ -47,7 +47,6 @@ p{
 a{
     text-decoration: none;
     color: #000000;
-    Font-family: 'GraphikLCG-Regular';
     font-size: 18px;
 }
 .container{
@@ -88,7 +87,8 @@ a{
     padding: 0px 36px;
     border: 1px solid rgba(0, 0, 0, 0.5);
     Font-size: 16px;
-    Line-height: 43px;
+    min-height: 45px;
+    min-width: 140px;
     background-color: #FFFFFF;
 }
 button{
@@ -100,8 +100,9 @@ button{
     background-color: #FF6336;
     min-width: 120px;
     Font-size: 16px;
-    Line-height: 45px;
-    padding: 0px 21px;
+    min-height: 45px;
+    min-width: 140px;
+    padding: 0px 29px;
     border: 0;
     margin-right: 51px;
 }
@@ -117,7 +118,6 @@ button{
     min-height: 60px;
     margin-right: 10px;
 }
-
 .accelerate_pic{
     height: 529px;
     width: 759px;
