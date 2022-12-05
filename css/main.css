@@ -1,34 +1,50 @@
 @font-face {
-    font-family: 'GraphikLCG-Regular', sans-serif;
-    src: local(GraphikLCG-Regular) url(//fonts/GraphikLCG-Regular.ttf);
+    font-family: 'graphik_lcgregular';
+    src: url(/fonts/graphiklcg-regular-webfont.eot);
+    src: url(/fonts/graphiklcg-regular-webfont.eot) format('embedded-opentype'),
+         url(/fonts/graphiklcg-regular-webfont.woff2) format('woff2'),
+         url(/fonts/graphiklcg-regular-webfont.woff) format('woff'),
+         url(/fonts/graphiklcg-regular-webfont.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
 @font-face {
-    font-family: 'GraphikLCG-Semibold', sans-serif;
-    src: local(GraphikLCG-Semibold) url(//fonts/GraphikLCG-Semibold.ttf);
+    font-family: 'graphik_semibolt';
+    src: url(/fonts/Graphik-Semibold.eot);
+    src: url(/fonts/Graphik-Semibold.eot) format('embedded-opentype'),
+         url(/fonts/Graphik-Semibold.woff2) format('woff2'),
+         url(/fonts/Graphik-Semibold.woff) format('woff'),
+         url(/fonts/Graphik-Semibold.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    font-family:'graphik_lcgregular', sans-serif;
 }
 *{
     box-sizing: border-box;
-}
-h1, h2, h3, h4 {
-    Font-family: 'GraphikLCG-Semibold';
 }
 h1{
     font-size: 65px;
     font-weight: 600;
     line-height: 70px;
     letter-spacing: 0em;
+    font-family: 'graphik_semibolt', sans-serif;
     }
 h2{
     font-weight: 600;
     Font-size: 50px;
     line-height: 60px;
     text-align: left;
+    font-family: 'graphik_semibolt', sans-serif;
 }
 h3{
     font-size: 30px;
     font-weight: 600;
     line-height: 35px;
     text-align: center;
+    font-family: 'graphik_semibolt', sans-serif;
 }
 h4{
     font-size: 20px;
@@ -36,9 +52,9 @@ h4{
     line-height: 25px;
     text-align: left;
     padding-bottom: 21px;
+    font-family: 'graphik_semibolt', sans-serif;
 }
 p{
-    Font-family: 'GraphikLCG-Regular';
     text-align: left;
     font-size: 20px;
     font-weight: 400;
@@ -151,7 +167,7 @@ padding-bottom: 50px;
 .localization_procces_text h2{
     text-align: left;
 }
-.localization_procces_img{
+.localization_procces{
     padding-top: 90px;
 }
 .link_start_now{
@@ -160,9 +176,9 @@ padding-bottom: 50px;
     line-height: 30px;
     letter-spacing: 0em;
 }
-.market_img{
+.market{
+    align-items: center;
     margin-top: 250px;
-    margin-right: 138px;
 }
 .market_text h2{
     max-width: 379px;
@@ -175,7 +191,7 @@ padding-bottom: 50px;
     line-height: 30px;
     font-weight: 400;
 }
-.ensure_quality_img{
+.ensure_quality{
     margin-top: 250px;
 }
 .ensure_quality_text p{
@@ -184,8 +200,10 @@ padding-bottom: 50px;
 .ensure_quality_text{
     margin-right: 138px;
 }
-.less_work_img{
+.less_work{
     margin-top: 250px;
+}
+.less_work_img{
     margin-right: 138px;
 }
 .less_work_text p{
@@ -269,7 +287,11 @@ padding-bottom: 50px;
     width: 37px;
 }
 .first_column{
-    padding-right: 70px;
+    padding-left: 70px;
+    align-items: flex-start;
+}
+.first_column p{
+    font-size: 15px;
 }
 .pigeon h1{
     max-width: 791px;
@@ -281,12 +303,13 @@ padding-bottom: 50px;
     margin-bottom: 25px;
     text-align: center;
 }
-.pigeon button{
+.integrations{
     margin-top: 32px;
     padding: 0px 25px;
     color: white;
-    line-height: 60px;
+    min-height: 60px;
     background-color: #FF6336;
+    border: 0px;
 }
 .made_easy{
     margin-top: 162px;
@@ -305,7 +328,6 @@ padding-bottom: 50px;
     background-color: black;    
     line-height: 60px;
     min-width: 160px;
-    font-family: Graphik LC TT;
     font-size: 17px;
     font-weight: 600;
     text-align: center;
