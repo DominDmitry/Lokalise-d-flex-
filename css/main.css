@@ -287,8 +287,11 @@ padding-bottom: 50px;
     width: 37px;
 }
 .first_column{
-    padding-left: 70px;
     align-items: flex-start;
+}
+.second_column{
+    align-items: flex-start;
+    padding-left: 70px;
 }
 .first_column p{
     font-size: 15px;
