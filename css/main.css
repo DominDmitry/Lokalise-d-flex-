@@ -18,33 +18,30 @@
     font-weight: normal;
     font-style: normal;
 }
-
-body{
-    font-family:'graphik_lcgregular', sans-serif;
-}
 *{
     box-sizing: border-box;
+    font-family:'graphik_lcgregular';
 }
 h1{
     font-size: 65px;
     font-weight: 600;
     line-height: 70px;
     letter-spacing: 0em;
-    font-family: 'graphik_semibolt', sans-serif;
+    font-family: 'graphik_semibolt';
     }
 h2{
     font-weight: 600;
     Font-size: 50px;
     line-height: 60px;
     text-align: left;
-    font-family: 'graphik_semibolt', sans-serif;
+    font-family: 'graphik_semibolt';
 }
 h3{
     font-size: 30px;
     font-weight: 600;
     line-height: 35px;
     text-align: center;
-    font-family: 'graphik_semibolt', sans-serif;
+    font-family: 'graphik_semibolt';
 }
 h4{
     font-size: 20px;
@@ -52,7 +49,7 @@ h4{
     line-height: 25px;
     text-align: left;
     padding-bottom: 21px;
-    font-family: 'graphik_semibolt', sans-serif;
+    font-family: 'graphik_semibolt';
 }
 p{
     text-align: left;
