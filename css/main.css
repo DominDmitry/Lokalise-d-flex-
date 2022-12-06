@@ -1,20 +1,20 @@
 @font-face {
     font-family: 'graphik_lcgregular';
-    src: url(/fonts/graphiklcg-regular-webfont.eot);
-    src: url(/fonts/graphiklcg-regular-webfont.eot) format('embedded-opentype'),
-         url(/fonts/graphiklcg-regular-webfont.woff2) format('woff2'),
-         url(/fonts/graphiklcg-regular-webfont.woff) format('woff'),
-         url(/fonts/graphiklcg-regular-webfont.ttf) format('truetype');
+    src: url(../fonts/graphiklcg-regular-webfont.eot);
+    src: url(../fonts/graphiklcg-regular-webfont.eot) format('embedded-opentype'),
+         url(../fonts/graphiklcg-regular-webfont.woff2) format('woff2'),
+         url(../fonts/graphiklcg-regular-webfont.woff) format('woff'),
+         url(../fonts/graphiklcg-regular-webfont.ttf) format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: 'graphik_semibolt';
-    src: url(/fonts/Graphik-Semibold.eot);
-    src: url(/fonts/Graphik-Semibold.eot) format('embedded-opentype'),
-         url(/fonts/Graphik-Semibold.woff2) format('woff2'),
-         url(/fonts/Graphik-Semibold.woff) format('woff'),
-         url(/fonts/Graphik-Semibold.ttf) format('truetype');
+    src: url(../fonts/Graphik-Semibold.eot);
+    src: url(../fonts/Graphik-Semibold.eot) format('embedded-opentype'),
+         url(../fonts/Graphik-Semibold.woff2) format('woff2'),
+         url(../fonts/Graphik-Semibold.woff) format('woff'),
+         url(../fonts/Graphik-Semibold.ttf) format('truetype');
     font-weight: normal;
     font-style: normal;
 }
