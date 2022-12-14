@@ -310,10 +310,6 @@ padding-bottom: 50px;
 .read_more{
     margin-bottom: 30px;
 }
-.bike{
-    align-items: flex-start;
-    margin-left: 0px;
-}
 .Case_Studies{
     padding-left: 20px;
     border-bottom: 1px solid black;
@@ -508,6 +504,10 @@ padding-bottom: 50px;
     .made_easy h1{
         padding-top: 119px;
     }
+    .bike{
+        align-items: flex-start;
+        margin-left: 0px;
+    }
     .bike h3{
         padding-top: 92px;
         padding-bottom: 28px;
@@ -620,7 +620,7 @@ padding-bottom: 50px;
     }
     .products_link{
         padding-bottom: 10px;
-        min-width: 224px;
+        min-width: 150px;
     }
     .footer{
         margin-top: 50px;
