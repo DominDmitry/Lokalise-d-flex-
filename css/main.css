@@ -297,16 +297,6 @@ padding-bottom: 50px;
 .bike img{
     padding-bottom: 15px;
 }
-.bike p{
-    max-width: 290px;
-    text-align: left;
-}
-.bike a{
-    font-size: 20px;
-    font-weight: 600;
-    line-height: 30px;
-    text-align: left;
-}
 .read_more{
     margin-bottom: 30px;
 }
@@ -511,6 +501,16 @@ padding-bottom: 50px;
     .bike h3{
         padding-top: 92px;
         padding-bottom: 28px;
+    }
+    .bike p{
+        max-width: 290px;
+        text-align: left;
+    }
+    .bike a{
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 30px;
+        text-align: left;
     }
     .clients_logo{
         display: flex;
