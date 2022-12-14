@@ -165,12 +165,6 @@ padding-bottom: 50px;
     align-items: center;
     padding-top: 30px;
 }
-.market_text h2{
-    max-width: 379px;
-}
-.ensure_quality_text p{
-    max-width: 520px;
-}
 .ensure_quality_text{
     margin-right: 0px;
 }
@@ -413,7 +407,7 @@ padding-bottom: 50px;
         line-height: 20px;
         text-align: left;
     }
-    .accelerate{
+    .accelerate, .ensure_quality, .less_work, .what_can_you,.market, .boost,.clients, .message, .made_easy{
         margin-top: 50px;
     }
     .accelerate_btns{
@@ -426,7 +420,6 @@ padding-bottom: 50px;
         text-align: unset;
     }
     .clients{
-        margin-top: 50px;
         margin-left: 20px;
         margin-right: 20px;
     }
@@ -438,11 +431,9 @@ padding-bottom: 50px;
     .localization_procces_text h2{
         text-align: left;
     }
-    .market{
-        margin-top: 50px;
-    }
     .market_text h2{
         padding-right: 216px;
+        max-width: 379px;
     }
     .market_text p{
         max-width: 450px;
@@ -455,11 +446,11 @@ padding-bottom: 50px;
         padding-top: 0px;
         margin-left: 138px;
     }
-    .ensure_quality, .less_work, .what_can_you, .boost, .message, .made_easy{
-        margin-top: 50px;
-    }
     .ensure_quality_text{
         margin-right: 138px;
+    }
+    .ensure_quality_text p{
+        max-width: 520px;
     }
     .pigeon{
         padding-top: 50px;
@@ -512,7 +503,7 @@ padding-bottom: 50px;
         text-align: left;
     }
     .read_more{
-        margin-bottom: 50px;
+        margin-bottom: 0px;
     }
     .made_easy h1{
         padding-top: 119px;
@@ -546,6 +537,10 @@ padding-bottom: 50px;
         min-height: 300px;
         display: flex;
         align-items: flex-start;
+    }
+    .products_link{
+        padding-bottom: 10px;
+        min-width: 130px;
     }
     .footer{
         padding-top: 52px;
@@ -589,10 +584,7 @@ padding-bottom: 50px;
         height: 529px;
         width: 759px;
     }
-    .accelerate{
-        margin-top: 130px;
-    }
-    .clients{
+    .accelerate,.clients, .market, .ensure_quality, .less_work, .what_can_you, .message, .made_easy{
         margin-top: 130px;
     }
     .clients_h{
@@ -606,9 +598,6 @@ padding-bottom: 50px;
     .clients{
         margin-left: 0px;
         margin-right: 0px;
-    }
-    .market, .ensure_quality, .less_work, .what_can_you, .message, .made_easy{
-        margin-top: 130px;
     }
     .pigeon{
         padding-top: 130px;
@@ -626,7 +615,15 @@ padding-bottom: 50px;
     .Case_Studies{
         margin-left: 75px;
         margin-right: 75px;
+        padding-bottom: 100px;
         justify-content: space-between;
+    }
+    .products_link{
+        padding-bottom: 10px;
+        min-width: 224px;
+    }
+    .footer{
+        margin-top: 50px;
     }
 }
 
