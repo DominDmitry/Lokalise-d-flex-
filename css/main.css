@@ -51,7 +51,6 @@ h4{
     font-size: 20px;
     font-weight: 600;
     line-height: 25px;
-    text-align: left;
     padding-bottom: 21px;
     font-family: 'graphik_semibolt';
 }
@@ -387,6 +386,7 @@ padding-bottom: 50px;
     h4{
         font-size: 20px;
         line-height: 25px;
+        text-align: left;
     }
     p{
         font-size: 16px;
