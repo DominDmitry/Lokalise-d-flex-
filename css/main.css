@@ -127,7 +127,6 @@ button{
     margin-right: 10px;
 }
 .accelerate_text p {
-max-width: 471px;
 padding-top: 51px;
 padding-bottom: 50px;
 }
@@ -144,9 +143,6 @@ padding-bottom: 50px;
     padding-top: 30px;
     padding-bottom: 30px;
     margin: 0 auto;
-}
-.localization_procces_text{
-    max-width: 493px;
 }
 .localization_procces{
     padding-top: 90px;
@@ -399,6 +395,9 @@ padding-bottom: 50px;
     .accelerate_btns{
         display: block;
     }
+    .accelerate_text p {
+        max-width: 471px;
+    }
     .accelerate_text, .less_work_text, .ensure_quality_text, .localization_procces_text, .market_text{
         text-align: left;
     }
@@ -413,6 +412,9 @@ padding-bottom: 50px;
         padding-top: 50px;
         padding-bottom: 50px;
         max-width: 520px;
+    }
+    .localization_procces_text{
+        max-width: 493px;
     }
     .localization_procces_text h2{
         text-align: left;
